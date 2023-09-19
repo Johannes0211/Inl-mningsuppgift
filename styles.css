@@ -1,0 +1,182 @@
+/*Mina styles för olika färger*/
+/*Jag har gjort olika klasser för texter jag vill ha färg på*/
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.text-färg{
+  color: #fd0ad4;
+}
+
+body {
+  background-image: url(Pexels.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/*Kontakt knappen*/
+.knapplänk{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd0ad4;
+}
+
+
+/*Min bild på mitt ansikte */
+header{
+  background: #e08f8f;
+  background-image: url('Bild.101.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  border: 1px solid #e08f8f;
+  box-shadow: 0px 0px 150px #d11d1d;
+
+}
+
+
+/* Rubrik och navigation olika stilar wow */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+}
+.nav-rubrik{
+  font-weight: 800;
+  font-size: 35px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+}
+nav a li{
+  list-style: none;
+  margin-left: 50px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+
+/* framsidan av sidan stilarna */
+/* font vikt avgör tjockleken  */
+.framsida{
+  margin: 0 200px;
+  display: flex;
+  gap: 500px;
+}
+.framsida-namn{
+  font-weight: 550;
+  font-size: 85px;
+}
+.framsida-presenterar{
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.framsida-beskrivning{
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+
+/* Mellanrum mellan kanterna i websidan */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+section{
+  margin-top: 160px;
+}
+
+
+/* Om Mig */
+.om{
+  background-color: #FFF8F3;
+  padding: 130px 150px;
+  text-align: center;
+  box-shadow: 0px 0px 1px rgb(255, 0, 187);
+}
+.info-rubrik{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.kontaktuppgifter{
+  color: #000000;
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.om-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.om .info-rubrik{
+  font-size: 20px;
+  color: #000000;
+}
+.info-beskrivning{
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+
+/* Vad jag studerar */
+.vadjagstuderar{
+  background-color: #FFF8F3;
+  padding: 130px 150px;
+  text-align: center;
+  box-shadow: 0px 0px 1px rgb(255, 0, 187);
+}
+.plugg-container{
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+.plugg{
+  background: #fd0ad4;
+  box-shadow: 0px 0px 10px rgb(255, 0, 187);
+  border-radius: 100px;
+  padding: 30px;
+}
+.plugg-rubrik{
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.plugg-beskrining{
+  color: #ffffff;
+}
+
+
+/* Kontakta mig */
+.kontakt{
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
+  background-color: #FFF8F3;
+}
+.kontakt .kontaktamig{
+  text-align: left;
+}
+.kontakt input[type="namn"], input[type="mail"], textarea{
+  margin-bottom: 15px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+.kontakt a{
+  text-decoration: none;
+  padding-right: 24px;
+} 
